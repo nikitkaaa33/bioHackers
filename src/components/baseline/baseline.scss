@@ -1,0 +1,84 @@
+.baseline {
+	&_header {
+		position: absolute;
+		width: 948px;
+		height: 44px;
+		left: 282px;
+		top: 2094px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 44px;
+		/* identical to box height */
+
+		text-align: center;
+
+		color: #423434;
+	}
+	&_rectangle {
+		position: absolute;
+		width: 1263px;
+		height: 212px;
+		left: 111px;
+		top: 2221px;
+
+		background: #d9d9d9;
+	}
+	&_p1 {
+		position: absolute;
+		width: 370px;
+		height: 238px;
+		left: 123px;
+		top: 2515px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 48px;
+		/* or 198% */
+
+		text-align: center;
+
+		color: #000000;
+	}
+	&_p2 {
+		position: absolute;
+		width: 370px;
+		height: 165px;
+		left: 580px;
+		top: 2515px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 55px;
+		/* or 229% */
+
+		text-align: center;
+
+		color: #000000;
+	}
+	&_p3 {
+		position: absolute;
+		width: 370px;
+		height: 275px;
+		left: 1037px;
+		top: 2515px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 55px;
+		/* or 229% */
+
+		text-align: center;
+		text-decoration-line: underline;
+
+		color: #000000;
+	}
+}

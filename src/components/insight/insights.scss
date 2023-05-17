@@ -1,0 +1,53 @@
+.insights {
+	top: 1000px;
+	&_square {
+		position: absolute;
+		top: 1110px;
+		width: 755px;
+		height: 785px;
+		background: rgba(35, 68, 185, 0.14);
+		border-radius: 0px 0px 132px 0px;
+	}
+	img {
+		position: absolute;
+		width: 358.06px;
+		height: 362px;
+		left: 944px;
+		top: 1311px;
+		border-radius: 50px;
+	}
+	&_girlp {
+		position: absolute;
+		width: 487px;
+		height: 34px;
+		left: 891px;
+		top: 1750px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 28px;
+		line-height: 34px;
+		/* identical to box height */
+
+		text-align: center;
+
+		color: #423434;
+	}
+	&_btn {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 11px 28px;
+		gap: 10px;
+
+		position: absolute;
+		width: 132px;
+		height: 46px;
+		left: 110px;
+		top: 576px;
+
+		background: #3d4c48;
+		border-radius: 30px;
+	}
+}

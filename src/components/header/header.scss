@@ -1,0 +1,93 @@
+.header {
+	position: absolute;
+	width: 1512px;
+	height: 67px;
+	left: 0px;
+	top: 0px;
+
+	background: #2344b9;
+	&_left {
+		img {
+			position: absolute;
+			width: 69.73px;
+			height: 37px;
+			left: 40px;
+			top: 11px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 800;
+			font-size: 35.9268px;
+			line-height: 43px;
+
+			color: #ffffff;
+		}
+		p {
+			position: absolute;
+			width: 237px;
+			height: 18px;
+			left: 135px;
+			top: 8px;
+
+			font-family: "Roboto";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 18px;
+			/* identical to box height */
+
+			color: #ffffff;
+		}
+	}
+	&_right {
+		&_links {
+			&_about {
+				position: absolute;
+				width: 47px;
+				height: 19px;
+				left: 1264px;
+				top: 24px;
+
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 19px;
+
+				color: #ffffff;
+				text-decoration: none;
+			}
+			&_sign {
+				position: absolute;
+				width: 60px;
+				height: 19px;
+				left: 1340px;
+				top: 25px;
+
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 19px;
+
+				color: #ffffff;
+				text-decoration: none;
+			}
+			&_log {
+				position: absolute;
+				width: 43px;
+				height: 19px;
+				left: 1429px;
+				top: 25px;
+
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 19px;
+
+				color: #ffffff;
+			}
+		}
+	}
+}
