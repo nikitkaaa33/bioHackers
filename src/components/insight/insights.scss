@@ -1,12 +1,25 @@
 .insights {
-	top: 1000px;
+	top: 100px;
+	position: absolute;
 	&_square {
 		position: absolute;
-		top: 1110px;
+		top: 1074px;
 		width: 755px;
 		height: 785px;
 		background: rgba(35, 68, 185, 0.14);
 		border-radius: 0px 0px 132px 0px;
+		&_p {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 25px;
+			line-height: 24px;
+			text-align: center;
+			color: #000;
+			position: relative;
+			top: 46px;
+			left: 205px;
+		}
 	}
 	img {
 		position: absolute;
@@ -44,10 +57,196 @@
 		position: absolute;
 		width: 132px;
 		height: 46px;
-		left: 110px;
-		top: 576px;
-
+		left: 103px;
+		top: 860px;
 		background: #3d4c48;
 		border-radius: 30px;
+		height: 24px;
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+		color: #ffffff;
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		:hover {
+			background: #d703f8;
+			cursor: pointer;
+			transition: all 0.5s;
+		}
+	}
+	&_btns {
+		position: relative;
+		top: 100px;
+		left: 200px;
+		:hover {
+			background: #d703f8;
+			cursor: pointer;
+			transition: all 0.5s;
+		}
+		&_0 {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 11px 28px;
+			gap: 10px;
+			position: relative;
+			width: 200px;
+			height: 65px;
+			background: #7a8dc8;
+			border-radius: 30px;
+			margin-top: 30px;
+			font-size: 30px;
+			color: #fff;
+			span {
+				position: relative;
+				top: 10px;
+				left: 15px;
+				width: 76px;
+				height: 24px;
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 24px;
+				text-align: center;
+				color: #ffffff;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+			}
+		}
+		&_1 {
+			display: flex;
+			margin-top: 30px;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 11px 28px;
+			gap: 10px;
+			position: relative;
+			background: #7a8dc8;
+			border-radius: 30px;
+			font-size: 30px;
+			color: #fff;
+			width: 200px;
+			height: 65px;
+			span {
+				position: relative;
+				top: 10px;
+				left: 15px;
+				width: 76px;
+				height: 24px;
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 24px;
+				text-align: center;
+				color: #ffffff;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+			}
+		}
+		&_2 {
+			display: flex;
+			flex-direction: row;
+			margin-top: 30px;
+			align-items: flex-start;
+			padding: 11px 28px;
+			gap: 10px;
+			position: relative;
+			width: 200px;
+			height: 65px;
+			background: #7a8dc8;
+			border-radius: 30px;
+			font-size: 30px;
+			color: #fff;
+			span {
+				position: relative;
+				top: 10px;
+				left: 30px;
+				width: 76px;
+				position: relative;
+				top: 10px;
+				height: 24px;
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 24px;
+				text-align: center;
+				color: #ffffff;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+			}
+		}
+		&_3 {
+			display: flex;
+			flex-direction: row;
+			margin-top: 30px;
+			align-items: flex-start;
+			padding: 11px 28px;
+			gap: 10px;
+			position: relative;
+			width: 200px;
+			height: 65px;
+			background: #7a8dc8;
+			border-radius: 30px;
+			font-size: 30px;
+			color: #fff;
+			span {
+				width: 76px;
+				height: 24px;
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 24px;
+				text-align: center;
+				color: #ffffff;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+				position: relative;
+				top: 10px;
+				left: 30px;
+			}
+		}
+		&_4 {
+			display: flex;
+			flex-direction: row;
+			margin-top: 30px;
+			align-items: flex-start;
+			padding: 11px 28px;
+			gap: 10px;
+			position: relative;
+			width: 200px;
+			height: 65px;
+			background: #7a8dc8;
+			border-radius: 30px;
+			font-size: 30px;
+			color: #fff;
+			span {
+				height: 24px;
+				font-family: "Inter";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 24px;
+				text-align: center;
+				color: #ffffff;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+				position: relative;
+				top: 10px;
+				left: 30px;
+			}
+		}
 	}
 }

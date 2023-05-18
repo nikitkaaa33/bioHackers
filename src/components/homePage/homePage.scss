@@ -17,21 +17,21 @@
 		span {
 			text-decoration-line: none;
 		}
-	}
-	p {
-		position: absolute;
-		width: 462px;
-		height: 48px;
-		left: 110px;
-		top: 425px;
+		p {
+			position: absolute;
+			width: 462px;
+			height: 48px;
+			left: 110px;
+			top: 425px;
 
-		font-family: "Inter";
-		font-style: normal;
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 24px;
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 24px;
 
-		color: #210909;
+			color: #210909;
+		}
 	}
 	&_btn {
 		display: flex;
@@ -48,21 +48,21 @@
 
 		background: #3d4c48;
 		border-radius: 30px;
+		:hover {
+			color: #c582ec;
+			cursor: pointer;
+			transition: all 0.5s;
+		}
 		span {
 			width: 76px;
 			height: 24px;
-
 			font-family: "Inter";
 			font-style: normal;
 			font-weight: 600;
 			font-size: 20px;
 			line-height: 24px;
 			text-align: center;
-
 			color: #ffffff;
-
-			/* Inside auto layout */
-
 			flex: none;
 			order: 0;
 			flex-grow: 0;
@@ -76,7 +76,7 @@
 		top: 120px;
 		border-radius: 50px;
 	}
-	&_acc {
+	&_acc p {
 		position: absolute;
 		width: 171px;
 		height: 17px;
@@ -88,8 +88,6 @@
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 17px;
-		/* identical to box height */
-
 		text-align: center;
 
 		color: #210909;
@@ -109,4 +107,58 @@
 			color: #1e1baa;
 		}
 	}
+	&_descr {
+		position: absolute;
+		width: 171px;
+		height: 17px;
+		left: 115px;
+		top: 653px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		/* identical to box height */
+
+		text-align: center;
+
+		color: #210909;
+		:hover {
+			color: #9715e3;
+			cursor: pointer;
+			transition: all 0.5s;
+		}
+		span {
+			position: absolute;
+			width: 38px;
+			height: 17px;
+			left: 180px;
+			top: 0px;
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 17px;
+			text-align: center;
+			color: #1e1baa;
+		}
+	}
+}
+
+.fade-enter {
+	opacity: 0;
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transition: opacity 2000ms;
+}
+
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit-active {
+	opacity: 0;
 }

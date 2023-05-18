@@ -1,0 +1,185 @@
+.testimonials {
+	&_header {
+		position: absolute;
+		width: 294px;
+		height: 58px;
+		left: 609px;
+		top: 3340px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 58px;
+		/* identical to box height */
+
+		text-align: center;
+
+		color: #423434;
+	}
+	&_img {
+		&_1 {
+			position: absolute;
+			width: 214px;
+			height: 214px;
+			left: 210px;
+			top: 3500px;
+			background: url(../img/girl.png);
+			border-radius: 100%;
+			border: greenyellow;
+		}
+		&_2 {
+			position: absolute;
+			width: 214px;
+			height: 214px;
+			left: 680px;
+			top: 3500px;
+			border-radius: 100%;
+		}
+		&_3 {
+			position: absolute;
+			width: 214px;
+			height: 214px;
+			left: 1130px;
+			top: 3500px;
+			border-radius: 100%;
+		}
+		&_up1 {
+			position: absolute;
+			width: 38px;
+			height: 30px;
+			left: 155px;
+			top: 3460px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 96px;
+			line-height: 116px;
+
+			color: #2344b9;
+		}
+		&_up2 {
+			position: absolute;
+			width: 38px;
+			height: 30px;
+			left: 601px;
+			top: 3460px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 96px;
+			line-height: 116px;
+
+			color: #2344b9;
+		}
+		&_up3 {
+			position: absolute;
+			width: 38px;
+			height: 30px;
+			left: 1063px;
+			top: 3460px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 96px;
+			line-height: 116px;
+
+			color: #2344b9;
+		}
+		&_vertical1 {
+			position: absolute;
+			width: 382px;
+			height: 0px;
+			left: 361px;
+			top: 3654px;
+			transform: rotate(90deg);
+			border: 1px solid #e3e3e3;
+		}
+		&_vertical2 {
+			position: absolute;
+			width: 382px;
+			height: 0px;
+			left: 833px;
+			top: 3653px;
+
+			border: 1px solid #e3e3e3;
+			transform: rotate(90deg);
+		}
+	}
+	&_descr {
+		&_1 {
+			position: absolute;
+			width: 280px;
+			height: 118px;
+			left: 186px;
+			top: 3725px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16.1207px;
+			line-height: 20px;
+
+			color: #000000;
+		}
+		&_2 {
+			position: absolute;
+			width: 280px;
+			height: 118px;
+			left: 632px;
+			top: 3725px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16.1207px;
+			line-height: 20px;
+
+			color: #000000;
+		}
+		&_3 {
+			position: absolute;
+			width: 280px;
+			height: 118px;
+			left: 1094px;
+			top: 3725px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16.1207px;
+			line-height: 20px;
+
+			color: #000000;
+		}
+	}
+	&_arrow {
+		&_L {
+			position: absolute;
+			left: 7%;
+			right: 19.98%;
+			top: 520.49%;
+			bottom: 12.49%;
+			:hover {
+				background: #d703f8;
+				cursor: pointer;
+				transition: all 0.5s;
+			}
+		}
+		&_R {
+			position: absolute;
+			left: 93.99%;
+			right: -60.01%;
+			top: 520.49%;
+			bottom: -62.54%;
+			:hover {
+				background: #d703f8;
+				cursor: pointer;
+				transition: all 0.5s;
+			}
+		}
+	}
+}

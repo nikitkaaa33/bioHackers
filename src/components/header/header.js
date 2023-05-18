@@ -10,15 +10,21 @@ const Header = () => {
 			</div>
 			<div className="header_right">
 				<p href="" className="header_right_links">
-					<a href="" className="header_right_links_about">
-						About
-					</a>
-					<a href="" className="header_right_links_sign">
-						Sign Up
-					</a>
-					<a href="" className="header_right_links_log">
-						Login
-					</a>
+					<div className="header_right_links_wrapper">
+						<a href="" className="header_right_links_about">
+							About
+						</a>
+					</div>
+					<div className="header_right_links_wrapper">
+						<a href="" className="header_right_links_sign">
+							Sign Up
+						</a>
+					</div>
+					<div className="header_right_links_wrapper">
+						<a href="" className="header_right_links_log">
+							Login
+						</a>
+					</div>
 				</p>
 			</div>
 		</div>

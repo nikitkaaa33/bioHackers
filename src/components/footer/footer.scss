@@ -1,0 +1,195 @@
+.footer {
+	position: absolute;
+	width: 1513px;
+	height: 231px;
+	left: 0px;
+	top: 4001px;
+
+	background: #122a80;
+	&_logo {
+		position: absolute;
+		width: 54px;
+		height: 28px;
+		left: 40px;
+		top: 40px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 800;
+		font-size: 27.822px;
+		line-height: 34px;
+
+		color: #ffffff;
+	}
+	&_about {
+		position: absolute;
+		width: 54px;
+		height: 22px;
+		left: 230px;
+		top: 48px;
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		color: #ffffff;
+		text-decoration: none;
+		:hover {
+			color: #d703f8;
+			cursor: pointer;
+		}
+		&_blog {
+			position: absolute;
+			width: 32px;
+			height: 18px;
+			left: 230px;
+			top: 81px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+
+			color: #ffffff;
+			text-decoration: none;
+		}
+		&_team {
+			position: absolute;
+			width: 40px;
+			height: 18px;
+			left: 230px;
+			top: 110px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+
+			color: #ffffff;
+			text-decoration: none;
+		}
+		&_press {
+			position: absolute;
+			width: 40px;
+			height: 18px;
+			left: 230px;
+			top: 140px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+
+			color: #ffffff;
+			text-decoration: none;
+		}
+	}
+	&_contact {
+		position: absolute;
+		width: 70px;
+		height: 22px;
+		left: 413px;
+		top: 50px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		text-decoration: none;
+		/* identical to box height */
+
+		color: #ffffff;
+		&_FAQ {
+			position: absolute;
+			width: 29px;
+			height: 18px;
+			left: 413px;
+			top: 81px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+
+			color: #ffffff;
+			text-decoration: none;
+		}
+		&_customer {
+			position: absolute;
+			width: 129px;
+			height: 18px;
+			left: 413px;
+			top: 110px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+
+			color: #ffffff;
+			text-decoration: none;
+		}
+	}
+	&_resourses {
+		position: absolute;
+		width: 92px;
+		height: 22px;
+		left: 677px;
+		top: 50px;
+
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		text-decoration: none;
+		/* identical to box height */
+
+		color: #ffffff;
+		&_mental {
+			position: absolute;
+			width: 166px;
+			height: 18px;
+			left: 677px;
+			top: 80px;
+
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+
+			color: #ffffff;
+			text-decoration: none;
+		}
+	}
+	&_social {
+		&_1 {
+			position: absolute;
+			width: 28px;
+			height: 28px;
+			left: 1323px;
+			top: 50px;
+		}
+		&_2 {
+			position: absolute;
+			width: 28px;
+			height: 28px;
+			left: 1384px;
+			top: 50px;
+		}
+		&_3 {
+			position: absolute;
+			width: 28px;
+			height: 28px;
+			left: 1445px;
+			top: 50px;
+		}
+	}
+}

@@ -41,21 +41,29 @@
 	}
 	&_right {
 		&_links {
+			&_wrapper {
+				:hover {
+					color: #a9a5e8;
+					transition: all 0.5s;
+				}
+			}
 			&_about {
 				position: absolute;
 				width: 47px;
 				height: 19px;
 				left: 1264px;
 				top: 24px;
-
 				font-family: "Inter";
 				font-style: normal;
 				font-weight: 500;
 				font-size: 16px;
 				line-height: 19px;
-
 				color: #ffffff;
 				text-decoration: none;
+				:hover {
+					background: #d703f8;
+					cursor: pointer;
+				}
 			}
 			&_sign {
 				position: absolute;
@@ -63,15 +71,18 @@
 				height: 19px;
 				left: 1340px;
 				top: 25px;
-
 				font-family: "Inter";
 				font-style: normal;
 				font-weight: 500;
 				font-size: 16px;
 				line-height: 19px;
-
 				color: #ffffff;
 				text-decoration: none;
+				:hover {
+					background: rgba(0, 0, 0, 0);
+					color: #3a7999;
+					box-shadow: inset 0 0 0 3px #3a7999;
+				}
 			}
 			&_log {
 				position: absolute;
@@ -87,6 +98,7 @@
 				line-height: 19px;
 
 				color: #ffffff;
+				text-decoration: none;
 			}
 		}
 	}
